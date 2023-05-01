@@ -36,7 +36,7 @@ function onCalculate(event) {
   //esultElement.innerHTML = Number(inputX.value) + Number(inputY.value);
   //console.log(event);
   //console.log(2 + 34);
-  resultElement.innerHTML = "<h4>" + "$" + interest.toFixed(2) +" is the total interest"+ "</h4>";
+  resultElement.innerHTML = "<h4>" + "$" + interest.toFixed(2) +" is the compund interest rate"+ "</h4>";
 }
 
 calculatorForm.onsubmit = onCalculate;
